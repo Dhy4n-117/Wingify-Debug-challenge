@@ -1,10 +1,10 @@
-# 🏦 Financial Document Analyzer
+# Financial Document Analyzer
 
 AI-powered financial document analysis system built with **CrewAI**, **FastAPI**, and **Google Gemini**. Upload corporate financial documents (PDFs) and receive comprehensive investment analysis, risk assessments, and recommendations from a team of specialized AI agents.
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Bugs Found & Fixes](#-bugs-found--fixes)
 - [Architecture](#-architecture)
@@ -16,7 +16,7 @@ AI-powered financial document analysis system built with **CrewAI**, **FastAPI**
 
 ---
 
-## 🐛 Bugs Found & Fixes
+## Bugs Found & Fixes
 
 ### Deterministic Bugs (Code-Level Issues)
 
@@ -66,12 +66,12 @@ Every agent and task had intentionally harmful prompts that instructed the LLM t
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The system uses a **multi-agent pipeline** powered by CrewAI:
 
 ```
-📄 PDF Upload
+PDF Upload
     │
     ▼
 ┌──────────────────┐
@@ -94,12 +94,12 @@ The system uses a **multi-agent pipeline** powered by CrewAI:
 └────────┬─────────┘
          │
          ▼
-    📊 Analysis Report
+    Analysis Report
 ```
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 
@@ -148,7 +148,7 @@ curl http://localhost:8000/
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Analyze a Financial Document
 
@@ -165,7 +165,7 @@ Visit `http://localhost:8000/docs` in your browser for an interactive API interf
 
 ---
 
-## 📖 API Documentation
+## API Documentation
 
 ### Endpoints
 
@@ -226,7 +226,7 @@ Get the full analysis text for a specific result.
 
 ---
 
-## ⭐ Bonus Features
+## Bonus Features
 
 ### 1. Queue Worker Model (Celery + Redis)
 
@@ -273,7 +273,7 @@ All analysis results are automatically persisted to a SQLite database.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 financial-document-analyzer-debug/
@@ -294,7 +294,7 @@ financial-document-analyzer-debug/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
