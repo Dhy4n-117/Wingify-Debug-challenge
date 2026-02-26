@@ -71,9 +71,9 @@ Every agent and task had intentionally harmful prompts that instructed the LLM t
 The system uses a **multi-agent pipeline** powered by CrewAI:
 
 ```
-PDF Upload
-    │
-    ▼
+     PDF Upload
+         │
+         ▼
 ┌──────────────────┐
 │   1. Verifier    │  Validates document is a legitimate financial report
 └────────┬─────────┘
@@ -112,7 +112,7 @@ PDF Upload
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/Dhy4n-117/Wingify-Debug-challenge
 cd financial-document-analyzer-debug
 
 # 2. Create a virtual environment
